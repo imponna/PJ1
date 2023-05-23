@@ -2426,7 +2426,7 @@ end)
 
 Farm1:Seperator(" ModeFarm ")
 
-local Farm1 = drops:Dropdown("Mode Farm!",{"Level Farm","Fast Mode","No Quest","Near Farm Mode"}, function(valie)
+local MF = Farm1:Dropdown("Mode Farm!",{"Level Farm","Fast Mode","No Quest","Near Farm Mode"}, function(valie)
 _G.Select_Mode_Farm = value
 end)
 
@@ -2443,7 +2443,7 @@ Setting1:Button("Copy Youtube Link",function()
 end)
 
 Setting1:Seperator(" ตั้งค่า ")
-Setting:Toggle("ออโต้เซ็ตจุดเกิด",false,function(value)
+Setting1:Toggle("ออโต้เซ็ตจุดเกิด",false,function(value)
  _G.AutoSetSpawn = value
  end)
 
@@ -2459,7 +2459,7 @@ spawn(function()
   end)
 end)
 
-Setting:Toggle("แอนตี้ AFK",true,function(value)
+Setting1:Toggle("แอนตี้ AFK",true,function(value)
  _G.AFK = value
  end)
 
