@@ -2471,7 +2471,7 @@ Setting1:Button("Copy Youtube Link",function()
 end)
 
 Setting1:Seperator(" ตั้งค่า ")
-Setting:Toggle("ออโต้เซ็ตจุดเกิด",false,function(value)
+Setting1:Toggle("ออโต้เซ็ตจุดเกิด",false,function(value)
  _G.AutoSetSpawn = value
  end)
 
