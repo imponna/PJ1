@@ -2503,7 +2503,7 @@ Setting:Slider1("Farm Distance",1,100,20,function(value)
  end)
 end
 
-local modefarm = Setting1:Dropdown("เลือกตำแหน่งฟาม!",{"Behind","Below","Upper"}, function(value)
+local MF2 = Setting1:Dropdown("เลือกตำแหน่งฟาม!",{"Behind","Below","Upper"}, function(value)
 _G.Method = value
 end)
 
